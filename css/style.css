@@ -1,0 +1,78 @@
+body{
+    margin:0;
+    padding:0;
+    background:#f1f1f1;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+#menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    opacity: 0.75;
+    height: 8%;
+    display: flex;
+    align-items: center;
+  }
+  
+  #menu li {
+    float: left;
+    margin-right: 10px;
+    border-radius: 10px;
+    border: 3px solid #00e44c;
+  }
+  
+  #menu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  #menu li a:hover {
+    background-color: #111;
+  }
+
+.login form{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: space-around;
+}
+
+
+.login{
+    width: 50%;
+    height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.content-home{
+    height: 100vh;
+    background-image: url('http://everwebcodebox.com/html5/media/ewExternalFiles/01w.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#username, #password{
+    margin-bottom: 2em;
+}
+
+input[type='text'], input[type='password']{
+    height: 35px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+#submit{
+    padding: 10px;
+    width: 30%;
+}
